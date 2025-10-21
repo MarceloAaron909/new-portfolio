@@ -12,23 +12,27 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     id: 1,
-    year: "2024 November - Present",
-    title: "My LeetCode Journey - 1877 Rated (Knight)",
-    description: `Started with Zero Coding Knowledge to ranking in te top 7% on LeetCode. Solved 360+ problems across various topics including Arrays, Strings, Linked Lists, Trees, Graphs, Dynamic Programming, and more. Focused on problem-solving skills, algorithmic thinking, and coding efficiency.`,
+    year: "2023–Present",
+    title: "Senior Full Stack Developer (Freelancer) ",
+    description: `Since 2023, I have been working independently as a Senior Full Stack Developer, delivering scalable, high-performance web applications for clients worldwide. I design and implement both frontend and backend systems using React, Vue, Next.js, Node.js, Laravel, and MongoDB—ensuring robust architecture, maintainability, and seamless user experiences.`,
     type: "experience"
   },
   {
     id: 2,
-    year: "2024 November - Present",
-    title: "Codeforces Rating 1310 (Pupil)",
-    description: ` Achieved a Codeforces rating of 1310 by actively participating in contests and solving problems regularly. Improved problem-solving speed and accuracy through consistent practice and learning from editorials and discussions.`,
+    year: "2018–2023",
+    title: "Full Stack Developer (UTStarcom) – Hangzhou, China",
+    description: ` • Developed and maintained dynamic web applications using React, Node.js, and MySQL.
+• Collaborated with cross-functional teams to deliver high-quality software solutions.
+• Enhanced performance and scalability through clean code practices and optimization.`,
     type: "experience"
   },
   {
     id: 3,
-    year: "2024 December - Present",
-    title: "Codechef Rating 1627 (3 Star)",
-    description: " Achieved a Codechef rating of 1627 (3 Star) by consistently solving problems and participating in contests. Focused on enhancing algorithmic skills and learning new techniques to tackle diverse problem types.",
+    year: "2016–2018",
+    title: "Junior Developer (Hundsun Technologies Inc ) – Hangzhou, China",
+    description: `After earning my degree in Computer Science, I began my career as a Junior Developer at Skyline Tech.
+• Assisted in developing and testing web applications using JavaScript and PHP.
+• Gained practical experience in all phases of the software development lifecycle—from planning to deployment.`,
     type: "education"
   }
 ];

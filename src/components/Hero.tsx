@@ -26,8 +26,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <span className="block">Hi, I'm Shubham Rakheja</span>
-            <span className="block mt-2 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">I design and develop high-performance web applications.</span>
+            <span className="block">Hi, I'm Li Ying</span>
+            <span className="block mt-2 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">I am a skilled and experienced Full Stack Developer</span>
           </motion.h1>
           
           <motion.h2 

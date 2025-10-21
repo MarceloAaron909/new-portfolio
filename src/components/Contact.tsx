@@ -11,25 +11,17 @@ const contactMethods = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'b4mshubham@gmail.com',
-    href: 'mailto:b4mshubham@gmail.com',
+    value: 'codingexpert483@gmail.com',
+    href: 'mailto:codingexpert483@gmail.com',
     bg: 'bg-blue-700',
     iconColor: 'text-white',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/shubhamrakheja',
-    href: 'https://github.com/shubham220420',
+    value: 'github.com/codemaster531',
+    href: 'https://github.com/codemaster531',
     bg: 'bg-gray-700',
-    iconColor: 'text-white',
-  },
-  {
-    icon: Linkedin,
-    label: 'LinkedIn',
-    value: 'linkedin.com/in/shubhamrakheja',
-    href: 'https://linkedin.com/in/shubham-rakheja',
-    bg: 'bg-blue-800',
     iconColor: 'text-white',
   },
 ];
@@ -60,29 +52,29 @@ const StackOverflowIcon = () => (
   </svg>
 );
 
-const codingPlatforms = [
-  {
-    icon: LeetCodeIcon,
-    label: 'LeetCode',
-    href: 'https://leetcode.com/shubham2204',
-    bg: 'bg-white',
-    iconColor: '',
-  },
-  {
-    icon: HackerRankIcon,
-    label: 'HackerRank',
-    href: 'https://hackerrank.com',
-    bg: 'bg-white',
-    iconColor: '',
-  },
-  {
-    icon: StackOverflowIcon,
-    label: 'Stack Overflow',
-    href: 'https://stackoverflow.com',
-    bg: 'bg-white',
-    iconColor: '',
-  },
-];
+// const codingPlatforms = [
+//   {
+//     icon: LeetCodeIcon,
+//     label: 'LeetCode',
+//     href: 'https://leetcode.com/shubham2204',
+//     bg: 'bg-white',
+//     iconColor: '',
+//   },
+//   {
+//     icon: HackerRankIcon,
+//     label: 'HackerRank',
+//     href: 'https://hackerrank.com',
+//     bg: 'bg-white',
+//     iconColor: '',
+//   },
+//   {
+//     icon: StackOverflowIcon,
+//     label: 'Stack Overflow',
+//     href: 'https://stackoverflow.com',
+//     bg: 'bg-white',
+//     iconColor: '',
+//   },
+// ];
 
 const ProfessionalSummary = () => (
   <Card className="glowing-card bg-gray-900/70 border-gray-800 rounded-xl transition-all duration-300 overflow-hidden h-full flex flex-col justify-center">
@@ -112,7 +104,7 @@ const ProfessionalSummary = () => (
           </a>
         ))}
       </div>
-      <div className="flex gap-6 mt-4">
+      {/* <div className="flex gap-6 mt-4">
         {codingPlatforms.map((platform) => (
           <a
             key={platform.label}
@@ -125,7 +117,7 @@ const ProfessionalSummary = () => (
             <platform.icon />
           </a>
         ))}
-            </div>
+            </div> */}
     </CardContent>
   </Card>
 );
@@ -169,7 +161,7 @@ const ContactForm = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: '05716f43-0ded-4e55-bf95-ab5882df239f',
+          access_key: 'd66ca5ed-2d7c-4626-bfea-32e89af846cb',
           firstName: formData.firstName,
           lastName: formData.lastName,
           email: formData.email,

@@ -40,7 +40,7 @@ const Footer = () => {
               />
               <div>
                 <p className="text-gray-400 text-sm">
-                  © {currentYear} Shubham Rakheja. All rights reserved.
+                  © {currentYear} Li Ying. All rights reserved.
                 </p>
               </div>
             </div>

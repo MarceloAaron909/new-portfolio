@@ -9,39 +9,39 @@ import { Link } from 'react-router-dom';
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "MockMate : A complete capstone project",
-    description: "AI-Mock-Interviewer helps students and professionals practice interviews in a realistic, AI-driven environment. Simply choose your role or domain, and the app generates tailored interview questions, evaluates responses, and gives instant feedback on communication, clarity, and technical depth. Deployed on Vercel, it provides accessible, on-demand interview preparation anytime.",
-    image: "/lovable-uploads/mockmate.png",
-    tags: ["React", "Next.js", "Tailwind CSS", "JS", "Node.js", "Express.js", "Clerk-Auth", "Gemini-API", "Mongodb"],
-    demoUrl: "https://mock-mate-pa7l.vercel.app/",
-    githubUrl: "https://github.com/shubham220420/MockMate"
+    title: "Finger Fiasco",
+    description: "A fast-paced typing game to test and improve your typing speed. Built using HTML, CSS, JavaScript with custom game logic and animated UI.",
+    image: "/lovable-uploads/finger-fiasco.png",
+    tags: ["React", "Next",  "Node", "Express",  "Mongodb"],
+    demoUrl: "https://codemaster531.github.io/FingerFiasco/home.html",
+    githubUrl: "https://github.com/CodeMaster531/FingerFiasco"
   },
   {
     id: 2,
-    title: "PitchSpark: A Startup Pitching Platform",
-    description: "PitchSpark lets aspiring founders share and refine their startup ideas through interactive pitching. Users can post their concepts, receive feedback, and engage with a community of peers to improve their pitches. Uses Sanity.io for headless content management. Deployed on Vercel, it provides an easy, collaborative space for startup validation and idea exchange.",
-    image: "/lovable-uploads/PitchSpark.png",
-    tags: ["Next.js", "Node.js", "REST", "NextAuth", "SanityCMS","Express.js","Tailwind CSS"],
-    demoUrl: "https://pitch-spark-delta.vercel.app",
-    githubUrl: "https://github.com/shubham220420/PitchSpark"
+    title: "Pinterest Clone",
+    description: "A visually rich and fully responsive Pinterest Clone crafted using React, React Router, and Tailwind CSS, offering a seamless browsing experience with smooth navigation and a modern UI design.",
+    image: "/lovable-uploads/pinterest-clone .png",
+    tags: ["Node.js", "REST", "Express","Tailwind CSS"],
+    demoUrl: "https://github.com/codemaster531/Pinterest-Clone",
+    githubUrl: "https://github.com/codemaster531Pinterest-Clone"
   },
   {
     id: 3,
-    title: "Portfolio with Admin Dashboard",
-    description: "A modern, full-stack portfolio website featuring an integrated admin dashboard for seamless content and project management. The platform supports secure authentication with Next-Auth, state management via React Context API. The admin dashboard allows easy updates to portfolio content, project listings, and blog posts, all within a responsive and visually engaging UI",
-    image: "/lovable-uploads/portfolio.png",
-    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express.js", "Next-Auth", "Context-API", "Mongo"],
-    demoUrl: "https://www.shubhamrakheja.online/",
-    githubUrl: "https://github.com/shubham220420/NewPortFolio"
+    title: "Cheese Oven",
+    description: " A vibrant and appetizing landing page for a pizza store, an interactive menu, online ordering, and special offers to entice customers.",
+    image: "/lovable-uploads/Pizza-Store-Landing-Page.png",
+    tags: ["React",   "Node", "Express",   "Mongo","Next"],
+    demoUrl: "https://codemaster531.github.io/Landing-Page-Project/",
+    githubUrl: "https://github.com/CodeMaster531/Landing-Page-Project"
   },
    {
     id: 4,
-    title: "ATSify-AI Powered Resume Analysis",
-    description: "ATSify helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) using AI-driven analysis. Simply upload your resume and job description, and the tool instantly evaluates formatting, keyword relevance, and overall ATS compatibility. It highlights missing skills, provides actionable suggestions, and scores your resume’s chances of passing ATS filters. Deployed on Vercel, ATSify ensures fast, accessible, and on-demand resume optimization for students and professionals alike.",
-    image: "/lovable-uploads/atsify.png",
-    tags: ["React", "Tailwind CSS", "TypeScript", "Node.js", "Express.js", "OPEN-API"],
-    demoUrl: "https://ats-resume-checker-iota.vercel.app/",
-    githubUrl: "https://github.com/Shubham220420/ats-resume-checker"
+    title: "Portfolio Website",
+    description: "My portfolio website featuring my projects, skills, and journey. Built with HTML, CSS, and JavaScript for a modern, interactive experience.",
+    image: "/lovable-uploads/portfolio.png",
+    tags: ["React",  "TypeScript", "Node", "Express"],
+    demoUrl: "https://codemaster531.github.io/my-Portfolio",
+    githubUrl: "https://github.com/CodeMaster531/my-portfolio"
   },
 ];
 
